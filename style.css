@@ -1,0 +1,211 @@
+/*
+ Theme Name:   Olive Tree Hill
+ Theme URI:    http://sailing.thimpress.com/
+ Description:  Sailing Child Theme - Olive Tree Hill Edition
+ Author:       Code by ThimPress | Redesigned and customized by  Alex Rodríguez
+ Author URI:   http://alexrds.com
+ Template:     sailing
+ Version:      1.0.0
+ Text Domain:  sailing-child
+*/
+
+.home .thim-search-room.thim-search-no-padding form {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.home .home-offer .home-offer-no-padding {
+    width: 100%;
+}
+.navbar-nav {
+    text-transform: capitalize;
+    font-family: Montserrat;
+}
+.main-bottom .container {
+    width: 100%;
+}
+.thim-select-language .language ul li a {
+    text-align: left;
+}
+/* MOBILE LOGO */
+
+.site-header.header_v2 .width-logo>a.mobile-logo {
+    width: 100%;
+}
+.site-header.header_v2 .inner-header-top .sm-logo .mobile-logo img {
+    width: 135px;
+}
+/* OFFER CIRCLE */
+
+.sale-off {
+    width: 290px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 55px 0;
+    position: relative;
+    vertical-align: middle;
+}
+.sale-off.banner-round {
+    background: rgba(255, 255, 255, .9);
+    height: 290px;
+    border-radius: 50%;
+    padding: 50px 0
+}
+.sale-off p {
+    margin: 0;
+    color: #2a2a2a
+}
+.sale-off p.title {
+    font-family: Montserrat;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.sale-off p.heading {
+    
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+.sale-off p.off {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 15px;
+    margin: 3px 0 26px
+}
+.sale-off p.learn-more a {
+    font-weight: 300;
+    color: #fff;
+    display: block;
+    margin: auto;
+    line-height: 40px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    max-width: 120px;
+    margin: 0 auto
+}
+/*BOOK SINGLE ROOM*/
+
+body .hb_button#hb_room_load_booking_form {
+    float: right;
+    margin-right: auto;
+}
+.room-details .hb_button {
+    float: right;
+}
+.room-details .price {
+    float: right;
+}
+.room-details .unit {
+    color: #3d3d3d;
+}
+/*SINGLE ROOM*/
+
+.hb_single_room .thim-single-room-content {
+    padding-right: 60px;
+    text-align: justify;
+}
+.hb_single_room .thim-list-in-room2 {
+    background: #ffffff;
+    padding: 15px 25px 25px
+}
+.hb_single_room .thim-list-in-room2 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.hb_single_room .thim-list-in-room2 ul li {
+    line-height: 30px
+}
+.hb_single_room .thim-list-in-room2 ul li i {
+    padding-right: 20px
+}
+/* BUTTON STYLE */
+
+.hb-room-content .search-room-button a {
+    font-weight: 600;
+    color: @white;
+    display: block;
+    margin: auto;
+    line-height: 40px;
+    .rounded(3px);
+    max-width: 140px;
+    margin: 0 auto;
+}
+
+/* TABLES IN ROOMS */
+table, th, td {
+    border: 0px solid white;
+    border-collapse: collapse;}
+
+/**********************/
+.top_site_main {
+  position: relative;
+  text-align: center;
+  background: #222;
+  color: @white;
+  text-transform: uppercase;
+  min-height: 150px;
+  &.top-site-no-image {
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    min-height: 150px;
+    .page-title-wrapper {
+      position: static;
+    }
+  }
+  &.top-site-no-image-custom {
+    min-height: 0;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .page-title-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    height: 100%;
+    &:before {
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      height: 100%;
+    }
+    .banner-wrapper {
+      .heading__secondary {
+        text-transform: capitalize;
+        font-size: 60px;
+        font-weight: 400;
+      }
+      .heading__primary {
+        text-transform: none;
+      }
+      .banner-description {
+        margin-top: 10px;
+      }
+    }
+  }
+  .page-title-wrapper {
+    .banner-wrapper {
+      h1, h2 {
+        margin-top: 0;
+        color: inherit;
+        display: inline-block;
+        position: relative;
+        span {
+          position: absolute;
+          width: 100%;
+          bottom: -5px;
+          height: 2px;
+          display: inline-block;
+          left: 0;
+        }
+      }
+    }
+  }
+}
